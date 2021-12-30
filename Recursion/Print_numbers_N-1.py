@@ -2,7 +2,7 @@
 def print_n_1(n):
     if n == 0 :
         return
-    print(n)    #the only difference between ptinting 1 till n and n till 1 is that we are printing n
+    print(n)    #print n first and then call function for (n-1)
     print_n_1(n-1)
 
 
